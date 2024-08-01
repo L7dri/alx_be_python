@@ -2,7 +2,7 @@ def safe_divide(numerator, denominator):
   
   try:
     numerator = input("float(numinator)")
-    denominator = input(float("denominator"))
+    denominator = input("float(denominator)")
     result = numerator/denominator 
   except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
