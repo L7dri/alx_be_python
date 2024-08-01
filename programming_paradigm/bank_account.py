@@ -6,7 +6,7 @@ class BankAccount:
   def deposit(self, amount):
     if amount > 0 :
       self.balance_account += amount 
-    print("Deposited: $"amount);
+    print(f"Deposited: ${amount}");
     else ValueError :
     print(" Invalid amount ");
   def withdraw(self, amount):
