@@ -1,0 +1,2 @@
+class safe_divide 
+  
