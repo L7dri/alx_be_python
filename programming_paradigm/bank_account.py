@@ -15,7 +15,7 @@ class BankAccount:
       print("Withdrew:"; amount)
     else 
       print("Insufficient funds.")
-  def display(self):
+  def display_balance(self):
     print("Current Balance: $"; self.balance_account)
     return 
       
