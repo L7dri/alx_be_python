@@ -6,17 +6,17 @@ class BankAccount:
   def deposit(self, amount):
     if amount > 0 :
       self.balance_account += amount 
-    print("Deposited: $" amount)
+    print(f"Deposited: ${args.amount:.2f}")
     else ValueError :
     print(" Invalid amount ")
   def withdraw(self, amount):
     if amount <= self.balance_account and amount >0:
       self.balance_account -= amount 
-      print("Withdrew: $" amount)
+      print(f"Withdrew: ${args.amount:.2f}")
     else 
       print("Insufficient funds.")
   def display_balance(self):
-    print("Current Balance: $" self.balance_account)
+    print("Current balance: $" self.balance_account)
     return 
       
     
