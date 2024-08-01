@@ -6,6 +6,7 @@ class BankAccount:
         if amount > 0:
             self.balance_account += amount
             print(f"Deposited: ${amount:.1f}")
+            return True 
         return False
 
     def withdraw(self, amount):
